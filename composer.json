@@ -1,0 +1,16 @@
+{
+    "name": "plumephp/async",
+    "description": "A micro async framework for Plume.",
+    "type": "project",
+    "license": "BSD-2-Clause",
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": { 
+            "": "modules/",
+            "Plume\\": "/Users/zhangtao/Documents/plumephp2016/plume/src/Plume",
+            "Plume\\Async\\": "/Users/zhangtao/Documents/plumephp2016/async/src"
+        }
+    }
+}
