@@ -1,7 +1,7 @@
 <?php
 
 if (substr(php_sapi_name(), 0, 3) !== 'cli') {
-　　die("Please used in client mode");
+	die("Please used in client mode");
 }
 
 require_once __DIR__.'/../../vendor/autoload.php';
