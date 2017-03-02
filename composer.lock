@@ -1,0 +1,132 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "6910927df14d9ad1ae8db18e439ff43b",
+    "content-hash": "9f17b8ba78b8b53845310e8daa48595e",
+    "packages": [
+        {
+            "name": "joshcam/mysqli-database-class",
+            "version": "v2.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/joshcam/PHP-MySQLi-Database-Class.git",
+                "reference": "0595c669e6883adaad1b3285b166fd9f58fd6acd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/joshcam/PHP-MySQLi-Database-Class/zipball/0595c669e6883adaad1b3285b166fd9f58fd6acd",
+                "reference": "0595c669e6883adaad1b3285b166fd9f58fd6acd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "MysqliDb.php",
+                    "dbObject.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Campbell",
+                    "email": "josh.lee.campbell@gmail.com",
+                    "homepage": "https://github.com/joshcam",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Alexander V. Butenko",
+                    "email": "a.butenka@gmail.com",
+                    "homepage": "http://smarttechdo.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP MySQL Wrapper and object mapper which utilizes MySQLi and prepared statements",
+            "time": "2016-11-18 16:16:21"
+        },
+        {
+            "name": "plumephp/async",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/plumephp/async.git",
+                "reference": "483b01a7afa085e25b0ff9ec564871f74da79afb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/plumephp/async/zipball/483b01a7afa085e25b0ff9ec564871f74da79afb",
+                "reference": "483b01a7afa085e25b0ff9ec564871f74da79afb",
+                "shasum": ""
+            },
+            "require": {
+                "plumephp/plume": "dev-master"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.5.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Plume\\Async\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "A async lib for PlumePHP.",
+            "time": "2017-02-27 03:20:51"
+        },
+        {
+            "name": "plumephp/plume",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/plumephp/plume.git",
+                "reference": "576c6e8a2f9891719ff2038e4267adadbc71c327"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/plumephp/plume/zipball/576c6e8a2f9891719ff2038e4267adadbc71c327",
+                "reference": "576c6e8a2f9891719ff2038e4267adadbc71c327",
+                "shasum": ""
+            },
+            "require": {
+                "joshcam/mysqli-database-class": "^2.7"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.5.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Plume\\": "src/Plume"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "A micro framework for PHP.",
+            "time": "2017-02-24 07:25:13"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "plumephp/async": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
