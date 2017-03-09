@@ -18,17 +18,17 @@ else
     indexFile=index_$env.php
 fi
 # show info
-echo "PHP CMD : " $php_cmd "\c"
-echo " | Module Name : " $2 "\c"
-echo " | Env Name : " $env
+echo "Commond : " $php_cmd
+echo "Action : " $1
+echo "Module : " $2
+echo "Env : " $env
 
 # delay function
 initWorker(){
-    echo $1 "\c"
     for i in {1..3}  
     do  
         sleep 1
-        echo ".\c"
+        echo "."
     done  
     echo "\n" ......... workers status .........
     gearadmin --status
