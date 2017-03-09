@@ -58,12 +58,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/plumephp/async.git",
-                "reference": "483b01a7afa085e25b0ff9ec564871f74da79afb"
+                "reference": "4cae988681ab37de4e5ebf2ecaaa8e1d4b6a3fab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/plumephp/async/zipball/483b01a7afa085e25b0ff9ec564871f74da79afb",
-                "reference": "483b01a7afa085e25b0ff9ec564871f74da79afb",
+                "url": "https://files.phpcomposer.com/files/plumephp/async/4cae988681ab37de4e5ebf2ecaaa8e1d4b6a3fab.zip",
+                "reference": "4cae988681ab37de4e5ebf2ecaaa8e1d4b6a3fab",
                 "shasum": ""
             },
             "require": {
@@ -83,7 +83,7 @@
                 "BSD-2-Clause"
             ],
             "description": "A async lib for PlumePHP.",
-            "time": "2017-02-27 03:20:51"
+            "time": "2017-03-09 04:03:04"
         },
         {
             "name": "plumephp/plume",
@@ -91,12 +91,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/plumephp/plume.git",
-                "reference": "576c6e8a2f9891719ff2038e4267adadbc71c327"
+                "reference": "61b5ee92f0641c305c9ab758b4088bc6d0a155bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/plumephp/plume/zipball/576c6e8a2f9891719ff2038e4267adadbc71c327",
-                "reference": "576c6e8a2f9891719ff2038e4267adadbc71c327",
+                "url": "https://files.phpcomposer.com/files/plumephp/plume/61b5ee92f0641c305c9ab758b4088bc6d0a155bb.zip",
+                "reference": "61b5ee92f0641c305c9ab758b4088bc6d0a155bb",
                 "shasum": ""
             },
             "require": {
@@ -116,7 +116,7 @@
                 "BSD-2-Clause"
             ],
             "description": "A micro framework for PHP.",
-            "time": "2017-02-24 07:25:13"
+            "time": "2017-03-09 02:56:33"
         }
     ],
     "packages-dev": [],

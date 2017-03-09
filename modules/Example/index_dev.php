@@ -10,5 +10,5 @@ use Plume\Async\Application;
 
 $app = new Application();
 $app['plume.root.path'] = __DIR__.'/';
-$app['plume.log.debug']=false;
+$app['plume.log.debug']=true;
 $app->run();

@@ -25,7 +25,7 @@ echo " | Env Name : " $env
 # delay function
 initWorker(){
     echo $1 "\c"
-    for i in {1..5}  
+    for i in {1..3}  
     do  
         sleep 1
         echo ".\c"

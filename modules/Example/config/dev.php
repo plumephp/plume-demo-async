@@ -25,7 +25,8 @@ return array(
     ),
 	'workers' => array(
         'Example::TestWorker::reverse' => 4,
-        'Example::TestWorker::sleep'=> 2
+        'Example::TestWorker::sleep'=> 2,
+        'Example::TestWorker::query'=> 2
 	),
 
 
