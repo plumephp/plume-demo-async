@@ -24,10 +24,10 @@ return array(
         'port' => '6379'
     ),
 	'workers' => array(
-        'Example::TestWorker::reverse' => 4,
-        'Example::TestWorker::sleep'=> 2,
-        'Example::TestWorker::query'=> 2
+        'Example::TestWorker::demoLog' => 2,
+        'Example::TestWorker::demoDB'=> 2,
+        'Example::TestWorker::demoRedis'=> 2,
+        'Example::TestWorker::demoConfig'=> 2,
+        'Example::TestWorker::demoSys'=> 2
 	),
-
-
 );
