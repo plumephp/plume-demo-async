@@ -20,7 +20,7 @@ class TestWorkerService extends Service{
 	public function query($id){
 		//检查参数是否正确
 		if (empty($id)) {
-			return "nothing";
+			return "query nothing";
 		}
 		//连接数据库查询
 		try {
@@ -41,8 +41,8 @@ class TestWorkerService extends Service{
 	*/
 	public function getValue($key){
 		//检查参数是否正确
-		if (empty($id)) {
-			return "nothing";
+		if (empty($key)) {
+			return "getValue nothing";
 		}
 		//连接redis查询
 		try{

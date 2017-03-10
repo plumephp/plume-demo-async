@@ -82,6 +82,13 @@ class TestWorker extends Worker{
     	return $this->app['plume.root.path'];
     }
 
+    public function demoDestroy($job){
+    	$data = array("test","value");
+    	echo $data[10];
+    	throw new \Exception("destroy");
+    	return "demoTest";
+    }
+
 	public function get(){
 		return function($job){
 			$this->my_reverse_function($job);

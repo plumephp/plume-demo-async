@@ -6,7 +6,7 @@ $funcs = array(
 	array('key'=>'Example::TestWorker::demoRedis','value'=>'TestKey'),
 	array('key'=>'Example::TestWorker::demoConfig','value'=>'null'),
 	array('key'=>'Example::TestWorker::demoSys','value'=>'null'),
-	array('key'=>'Example::TestWorker::demoDestory','value'=>'null'));
+	array('key'=>'Example::TestWorker::demoDestroy','value'=>'null'));
 
 for ($i=0; $i < count($funcs); $i++) {
 	echo '['.$i.'] - '.$funcs[$i]['key'].' - '.$funcs[$i]['value'].PHP_EOL;
