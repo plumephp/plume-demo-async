@@ -16,12 +16,12 @@ for ($i=0; $i < count($funcs); $i++) {
 $number = trim(fgets(STDIN)); 
 
 // 打印提示信息
-fwrite(STDOUT, $funcs[$number]['key']."will be run ...");
+fwrite(STDOUT, $funcs[$number]['key']." will be run ...");
 
 $client= new GearmanClient();
 $client->addServer('127.0.0.1', 4730);
 echo $client->doNormal($funcs[$number]['key'], $funcs[$number]['value']), "\n";
-// echo $client->doBackground('Example::TestWorker::sleep', 'Hello World!'), "\n";
+// echo $client->doBackground($funcs[$number]['key'], $funcs[$number]['value']), "\n";
 ?>
 
 
