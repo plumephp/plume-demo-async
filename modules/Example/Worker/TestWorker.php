@@ -39,12 +39,19 @@ class TestWorker extends Worker{
     * 功能：查询user_info表中id为id0的数据
     */
     public function demoDB($job){
-    	//获取任务参数
-		$param = $job->workload();
-		//使用服务对象处理业务
-		$service = new TestWorkerService($this->app);
-		$result = $service->query($param);
-		return json_encode($result, true);
+        try {
+            //获取任务参数
+            $param = $job->workload();
+            //使用服务对象处理业务
+            $service = new TestWorkerService($this->app);
+            $result = $service->query($param);
+            $service->close_db();
+            $result = $service->query($param);
+            return json_encode($result, true);    
+        } catch (\Exception $e) {
+            return $e->getMessage();
+        }
+    	
     }
 
     /**
