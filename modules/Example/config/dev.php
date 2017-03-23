@@ -29,6 +29,7 @@ return array(
         'Example::TestWorker::demoRedis'=> 2,
         'Example::TestWorker::demoConfig'=> 2,
         'Example::TestWorker::demoSys'=> 2,
-        'Example::TestWorker::demoDestroy'=> 2
+        'Example::TestWorker::demoDestroy'=> 2,
+        'Example::TestDaemon::start'=> 1
 	),
 );

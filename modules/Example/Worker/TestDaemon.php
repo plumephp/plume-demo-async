@@ -20,4 +20,13 @@ class TestDaemon extends Daemon{
             $this->log('Run Method', 'TestDaemon Run ...');
         }
     }
+
+    public function start(){
+        while(true){
+            sleep(1);
+            echo "just start ...";
+            $this->log('Run Method', 'TestDaemon Run ...');
+        }
+    }
+
 }
