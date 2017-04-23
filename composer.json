@@ -5,10 +5,11 @@
     "license": "BSD-2-Clause",
     "minimum-stability": "dev",
     "require": {
-        "plumephp/async": "dev-master"
+        "plumephp/async": "dev-master",
+        "elasticsearch/elasticsearch": "^5.2"
     },
     "autoload": {
-        "psr-4": { 
+        "psr-4": {
             "": "modules/"
         }
     }
