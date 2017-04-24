@@ -34,7 +34,7 @@ class Log extends Worker{
     }
 
 
-    public function ($job){
+    public function asyncTime($job){
         date_default_timezone_set('UTC');
         $server_es = empty($this->getConfigValue('server_es')) ? '127.0.0.1:9200' : $this->getConfigValue('server_es');
         $hosts = [
