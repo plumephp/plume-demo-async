@@ -1,0 +1,17 @@
+* plume-demo-async
+  plumephp中async模块的使用样例。
+** async log
+   - 依赖gearman的异步日志
+** async time
+   - 依赖gearman和elasticsearch的异步性能日志
+   - 客户端接入方法
+     - index入口文件配置
+#+BEGIN_SRC php
+$app['plume.log.time']=true;
+$app['plume.log.time.config']=array(
+    'ip_local' => '127.0.0.1',
+    'project' => 'PlumeDemoWeb',
+    'server' => array('127.0.0.1' => 4730)
+);
+#+END_SRC
+     - 添加composer依赖:"elasticsearch/elasticsearch": "^5.2"
